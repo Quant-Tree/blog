@@ -62,4 +62,4 @@ Github 저장소 페이지를 Refresh하면 Commit 된 내용을 확인할 수 �
 방법을 단계별로 적다보니 길어졌지만, 간단한 절차라 한번만 따라하면 이후엔 쉽게 할 수 있다.
 
 #### 참고
-- [Happ yGit with R]https://happygitwithr.com
+- [Happ yGit with R](https://happygitwithr.com)
