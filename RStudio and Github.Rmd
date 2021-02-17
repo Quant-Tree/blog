@@ -1,6 +1,6 @@
 ---
-  title: "RStudio와 Github 연동하기"
-author: "Yule"
+title: "RStudio와 Github 연동하기"
+author: "Quant Tree"
 date: '2021 2 17 '
 output: html_document
 ---
@@ -19,13 +19,15 @@ knitr::opts_chunk$set(echo = TRUE)
 1. R, RStudio, Git은 설치가 되어있어야 한다. 이러한 설치 과정은 구글링하면 금방 나오는 것이기에 생략한다.
 
 2. RStudio에서 새로운 프로젝트를 생성한다(Create a project).
-그림1
+![프로젝트생성](https://github.com/Quant-Tree/blog/blob/main/r_and_git_01.PNG?raw=true)
+
 3. Version Control을 눌러주자
 
 4. 그러면 Git과 Subversion이 나오는데, Git을 클릭하면 된다.
-그림2
+![Git](https://github.com/Quant-Tree/blog/blob/main/r_and_git_02.PNG?raw=true)
 5. Repository URL: 입력창에, 본인의 Github 저장소 주소를 입력하면 된다. 본인의 Github 저장소 주소는 그냥 url을 긁어와도 되고, 아니면 아래 그림에서 처럼 초록색 버튼을 눌러 주소를 복사해와도 된다. 
-그림3
+![URL복사](https://github.com/Quant-Tree/blog/blob/main/r_and_git_03.PNG?raw=true)
+
 6. 이때, local에 새로 생성되는 프로젝트의 폴더명은 Github 저장소 이름으로 자동으로 입력된다. 다른 이름으로 수정해도 무방하다.
 
 7. 그리고 새로 생성되는 프로젝트의 폴더를 어느 디렉토리의 하위경로로 넣을지를 입력하면 된다. 그냥 디폴트로 했다.
@@ -35,10 +37,10 @@ knitr::opts_chunk$set(echo = TRUE)
 8. 이제 프로젝트에서 생성한 파일들을 stage에 올리고, commit하고, push하는 일이 남았다.
 
 9. 먼저 RStudio 우측 상단에 보면, Git이라는 새로운 메뉴가 보일 것이다.
-그림5
+![프로젝트생성](https://github.com/Quant-Tree/blog/blob/main/r_and_git_04.PNG?raw=true)
 
 10. Staged 체크박스를 누르면, 해당 파일은 stage되고, status가 added로 변경된다.
-그림 6
+![프로젝트생성](https://github.com/Quant-Tree/blog/blob/main/r_and_git_06.PNG?raw=true)
 
 11. 그리고 Commit 버튼을 눌러서 Commit하고, 
 
