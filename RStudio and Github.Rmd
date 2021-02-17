@@ -1,0 +1,62 @@
+---
+  title: "RStudio와 Github 연동하기"
+author: "Yule"
+date: '2021 2 17 '
+output: html_document
+---
+  
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## RStudio와 Github 연동하게 된 계기
+
+이제 어느정도 R과 Python을 사용하는데 익숙해져서, 체계적으로 내가 짠 코드들을 관리할 필요성을 느끼게 되었다.
+특히, Git의 버전 컨트롤이 업무 효율성을 높일 수 있다고 생각이 들었다.
+  
+## 연동하기
+  
+1. R, RStudio, Git은 설치가 되어있어야 한다. 이러한 설치 과정은 구글링하면 금방 나오는 것이기에 생략한다.
+
+2. RStudio에서 새로운 프로젝트를 생성한다(Create a project).
+그림1
+3. Version Control을 눌러주자
+
+4. 그러면 Git과 Subversion이 나오는데, Git을 클릭하면 된다.
+그림2
+5. Repository URL: 입력창에, 본인의 Github 저장소 주소를 입력하면 된다. 본인의 Github 저장소 주소는 그냥 url을 긁어와도 되고, 아니면 아래 그림에서 처럼 초록색 버튼을 눌러 주소를 복사해와도 된다. 
+그림3
+6. 이때, local에 새로 생성되는 프로젝트의 폴더명은 Github 저장소 이름으로 자동으로 입력된다. 다른 이름으로 수정해도 무방하다.
+
+7. 그리고 새로 생성되는 프로젝트의 폴더를 어느 디렉토리의 하위경로로 넣을지를 입력하면 된다. 그냥 디폴트로 했다.
+
+이렇게 하면 Github 저장소(원격)와 연결된 RStudio의 새로운 프로젝트(로컬)가 생성된다. 
+
+8. 이제 프로젝트에서 생성한 파일들을 stage에 올리고, commit하고, push하는 일이 남았다.
+
+9. 먼저 RStudio 우측 상단에 보면, Git이라는 새로운 메뉴가 보일 것이다.
+그림5
+
+10. Staged를 누르고, 
+
+
+
+
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+  
+  ```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+  
+  ```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
