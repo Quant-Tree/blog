@@ -8,19 +8,19 @@ output: html_document
 #### RStudio와 Github 연동하게 된 계기
 
 이제 어느정도 R과 Python을 사용하는데 익숙해져서, 체계적으로 작업물들을 관리할 필요성을 느끼게 되었다.
-특히, 버전 컨트롤로 업무 효율성을 높일 수 있다고 생각이 들었다.
-  
+특히, 버전 컨트롤로 작업 효율성을 높일 수 있겠다는 생각이 들었다.
+
 #### 연동하기
 
-R, RStudio, Git은 설치가 되어있어야 한다. RStudio에서 새로운 프로젝트를 생성한다.
+먼저, R, RStudio, Git을 설치한다(설치법은 구글링하면 참고할 수 있는 자료가 많다.). RStudio에서 새로운 프로젝트를 생성한다.
 
 >![프로젝트생성](https://github.com/Quant-Tree/blog/blob/main/r_and_git_01.PNG?raw=true)
 
-제일 하단의 Version Control을 클릭하면, Git과 Subversion이 나오는데, Git을 클릭하면 된다.
+제일 하단의 Version Control을 클릭하면, Git과 Subversion이 나오는데, Git을 클릭한다.
 
 >![Git](https://github.com/Quant-Tree/blog/blob/main/r_and_git_02.PNG?raw=true)
 
-Repository URL: 입력창에, 본인의 Github 저장소 주소를 입력하면 된다.
+Repository URL: 입력창에, 본인의 Github 저장소 주소를 입력한다.
 
 >![URL복사](https://github.com/Quant-Tree/blog/blob/main/r_and_git_03.PNG?raw=true)
 
@@ -42,7 +42,7 @@ Staged 체크박스를 누르면, 해당 파일은 stage되고, status가 added�
 
 >![added](https://github.com/Quant-Tree/blog/blob/main/r_and_git_06.PNG?raw=true)
 
-이제 Commit 버튼을 누른다. 아래 그림과 같은 새로운 창이 뜬다.(Commit Message에 뭐라도 적어야 Commit이 되는거 같다.)
+이제 Commit 버튼을 누른다. 아래 그림과 같은 새로운 창이 뜬다. Commit Message에 뭐라도 적어야 Commit이 된다.
 
 >![added](https://github.com/Quant-Tree/blog/blob/main/r_and_git_07.PNG?raw=true)
 
